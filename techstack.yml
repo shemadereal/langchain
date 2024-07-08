@@ -1,0 +1,1724 @@
+repo_name: shemadereal/langchain
+report_id: d8bf07363703f742b888df9ecd813c20
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-08T05:52:07+00:00'
+requested_by: baskaryan
+provider: github
+branch: master
+detected_tools_count: 114
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/.devcontainer/docker-compose.yaml
+  detection_source: ".devcontainer/docker-compose.yaml"
+  last_updated_by: Zander Chase
+  last_updated_on: 2023-05-04 18:37:00.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  version: 5.1.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  version: 0.96.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/langchain/cli/create_repo/templates/pip/pyproject.toml
+  detection_source: libs/langchain/langchain/cli/create_repo/templates/pip/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-10-04 19:43:41.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Cassandra
+  description: A partitioned row store. Rows are organized into tables with a required
+    primary key.
+  website_url: http://cassandra.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1032/cassandra_small.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/langchain/memory/chat_message_histories/cassandra.py
+  detection_source: libs/langchain/langchain/memory/chat_message_histories/cassandra.py
+  last_updated_by: Stefano Lottini
+  last_updated_on: 2023-06-29 17:50:34.000000000 Z
+- name: DB
+  description: 'Version control for databases: save, restore, and archive snapshots
+    of your database from the command line'
+  website_url: https://github.com/infostreams/db
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/11593/no-img.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/langchain/docker-compose.yaml
+  detection_source: libs/langchain/langchain/docker-compose.yaml
+  last_updated_by: Ankush Gola
+  last_updated_on: 2023-01-27 01:38:13.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/.devcontainer/docker-compose.yaml
+  detection_source: ".devcontainer/docker-compose.yaml"
+  last_updated_by: Zander Chase
+  last_updated_on: 2023-05-04 18:37:00.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/langchain/docker-compose.yaml
+  detection_source: libs/langchain/langchain/docker-compose.yaml
+  last_updated_by: Ankush Gola
+  last_updated_on: 2023-01-27 01:38:13.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.22.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/babel.config.js
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/.github/workflows/_lint.yml
+  detection_source: ".github/workflows/_lint.yml"
+  last_updated_by: Predrag Gruevski
+  last_updated_on: 2023-09-06 15:15:28.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/pyproject.toml
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.88.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: Xata
+  description: Serverless database on top of PostgreSQL and Elasticsearch
+  website_url: https://xata.io/
+  version: 1.1.0
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/47989/default_91448425d50074b7203a838e80ca0875891045e0.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: Vercel
+  description: It makes serverless application deployment easy
+  website_url: https://vercel.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Static Web Hosting
+  image_url: https://img.stackshare.io/service/7618/bHjpwZem_400x400.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/vercel.json
+  detection_source: docs/vercel.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 20:39:58.000000000 Z
+- name: Claude
+  description: A next-generation AI assistant for your tasks, no matter the scale
+  website_url: https://www.anthropic.com/product
+  version: 0.3.11
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101883/default_fddf1fbe1d52baf4dac573b2b7fc24b78cc729b1.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: Cohere.com
+  description: Add cutting-edge language processing to any system
+  website_url: https://cohere.com/
+  version: '4.27'
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101884/default_cf6d4a823cb5b37940800efc1e952b6a6c74e32a.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Kazuki Maeda
+  last_updated_on: 2023-10-01 19:30:58.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  version: 8.10.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/tests/integration_tests/memory/docker-compose/elasticsearch.yml
+  last_updated_by: Adam Demjen
+  last_updated_on: 2023-10-12 23:51:38.000000000 Z
+- name: Hugging Face
+  description: Build, train and deploy state of the art models
+  website_url: https://huggingface.co/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/40287/default_b4fac77fd6589c7469ccfb18a0d2df3ff2a71dbd.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/pyproject.toml
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-15 17:21:11.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  version: 0.0.308
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Predrag Gruevski
+  last_updated_on: 2023-10-05 02:36:58.000000000 Z
+- name: Mongo
+  description: Heroku provides services and tools to build, run, and scale web applications.
+    Follow @herokustatus for platform updates. A @salesforce company.
+  website_url: http://wedesignapps.herokuapp.com
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3519/3wgIDj3j_normal.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/.devcontainer/docker-compose.yaml
+  detection_source: ".devcontainer/docker-compose.yaml"
+  last_updated_by: Zander Chase
+  last_updated_on: 2023-05-04 18:37:00.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.10
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/langchain/cli/create_repo/templates/pip/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-10-04 19:43:41.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  version: 2.2.4
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: Sentence Transformers
+  description: Multilingual sentence, paragraph, and image embeddings
+  website_url: https://www.sbert.net/
+  version: 2.2.2
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/109224/default_1167b8b1fc15f3526701cde5a789734ae865925d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: olgavrou
+  last_updated_on: 2023-09-11 16:16:08.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: XSLT
+  description: The official Twitter account for the sum of all knowledge, Wikipedia.
+    Overseen by @jeffelder.
+  website_url: https://en.wikipedia.org/wiki/XSLT
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4253/nZXfdUQq_normal.jpg
+  detection_source_url: https://github.com/shemadereal/langchain
+  detection_source: Repo Metadata
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: '5.3'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/pyproject.toml
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-08-03 20:22:17.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in PyYAML
+    cve_id: CVE-2020-14343
+    cve_url: https://github.com/advisories/GHSA-8q59-q68h-6hv4
+    detected_date: Aug 22
+    severity: critical
+    first_patched: '5.4'
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  version: 0.0.308
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Predrag Gruevski
+  last_updated_on: 2023-10-05 02:36:58.000000000 Z
+  vulnerabilities:
+  - name: LangChain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-39659
+    cve_url: https://github.com/advisories/GHSA-prgp-w7vf-ch62
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.325
+  - name: langchain vulnerable to arbitrary code execution
+    cve_id: CVE-2023-36281
+    cve_url: https://github.com/advisories/GHSA-7gfq-f96f-g85j
+    detected_date: Dec 8
+    severity: critical
+    first_patched: 0.0.312
+  - name: Langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2023-32786
+    cve_url: https://github.com/advisories/GHSA-6h8p-4hx9-w66c
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.329
+  - name: LangChain Server Side Request Forgery vulnerability
+    cve_id: CVE-2023-46229
+    cve_url: https://github.com/advisories/GHSA-655w-fm8m-m478
+    detected_date: Dec 8
+    severity: high
+    first_patched: 0.0.317
+  - name: Server-Side Request Forgery in langchain
+    cve_id: CVE-2024-3095
+    cve_url: https://github.com/advisories/GHSA-q25c-c977-4cmh
+    detected_date: Jun 7
+    severity: moderate
+    first_patched:
+  - name: langchain vulnerable to path traversal
+    cve_id: CVE-2024-3571
+    cve_url: https://github.com/advisories/GHSA-rgp8-pm28-3759
+    detected_date: Apr 17
+    severity: moderate
+    first_patched: 0.0.353
+  - name: Denial of service in langchain
+    cve_id: CVE-2024-2965
+    cve_url: https://github.com/advisories/GHSA-3hjh-jh2h-vrg6
+    detected_date: Jun 7
+    severity: moderate
+    first_patched:
+  - name: LangChain directory traversal vulnerability
+    cve_id: CVE-2024-28088
+    cve_url: https://github.com/advisories/GHSA-h59x-p739-982c
+    detected_date: Mar 7
+    severity: low
+    first_patched: 0.0.339
+  - name: langchain Server-Side Request Forgery vulnerability
+    cve_id: CVE-2024-0243
+    cve_url: https://github.com/advisories/GHSA-h9j7-5xvc-qhg5
+    detected_date: Feb 27
+    severity: low
+    first_patched: 0.1.0
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.8.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Kazuki Maeda
+  last_updated_on: 2023-10-01 19:30:58.000000000 Z
+  vulnerabilities:
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via version
+    cve_id: CVE-2023-49081
+    cve_url: https://github.com/advisories/GHSA-q3qx-c6g2-7pw2
+    detected_date: Nov 28
+    severity: high
+    first_patched: 3.9.0
+  - name: aiohttp vulnerable to Denial of Service when trying to parse malformed POST
+      requests
+    cve_id: CVE-2024-30251
+    cve_url: https://github.com/advisories/GHSA-5m98-qgg9-wh84
+    detected_date: May 4
+    severity: high
+    first_patched: 3.9.4
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: AIOHTTP has problems in HTTP parser (the python one, not llhttp)
+    cve_id: CVE-2023-47627
+    cve_url: https://github.com/advisories/GHSA-gfw2-4jvh-wgfg
+    detected_date: Nov 15
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp has vulnerable dependency that is vulnerable to request smuggling
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-pjjw-qhg8-p2p9
+    detected_date: Nov 29
+    severity: moderate
+    first_patched: 3.8.6
+  - name: aiohttp's ClientSession is vulnerable to CRLF injection via method
+    cve_id: CVE-2023-49082
+    cve_url: https://github.com/advisories/GHSA-qvrw-v9rv-5rjx
+    detected_date: Nov 28
+    severity: moderate
+    first_patched: 3.9.0
+  - name: aiohttp Cross-site Scripting vulnerability on index pages for static file
+      handling
+    cve_id: CVE-2024-27306
+    cve_url: https://github.com/advisories/GHSA-7gpw-8wmc-pm8g
+    detected_date: Apr 19
+    severity: moderate
+    first_patched: 3.9.4
+- name: nltk
+  description: Natural Language Toolkit
+  package_url: https://pypi.org/project/nltk
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+  vulnerabilities:
+  - name: ntlk unsafe deserialization vulnerability
+    cve_id: CVE-2024-39705
+    cve_url: https://github.com/advisories/GHSA-cgvx-9447-vcch
+    detected_date: Jun 29
+    severity: high
+    first_patched:
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 23.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 17:36:28.000000000 Z
+  vulnerabilities:
+  - name: Black vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2024-21503
+    cve_url: https://github.com/advisories/GHSA-fj7x-q9j7-g6q6
+    detected_date: Mar 21
+    severity: moderate
+    first_patched: 24.3.0
+- name: pydantic
+  description: Data validation and settings management using python 3.6 type hinting
+  package_url: https://pypi.org/project/pydantic
+  version: 1.10.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20022/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Bagatur
+  last_updated_on: 2023-08-21 19:11:49.000000000 Z
+  vulnerabilities:
+  - name: Pydantic regular expression denial of service
+    cve_id: CVE-2024-3772
+    cve_url: https://github.com/advisories/GHSA-mr82-8j83-vxmv
+    detected_date: Apr 25
+    severity: moderate
+    first_patched: 1.10.13
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  version: 4.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+  vulnerabilities:
+  - name: 'PyMongo Out-of-bounds Read in the bson module '
+    cve_id: CVE-2024-5629
+    cve_url: https://github.com/advisories/GHSA-m87m-mmvp-v9qm
+    detected_date: Jun 6
+    severity: moderate
+    first_patched: 4.6.3
+  - name: 'PyMongo Out-of-bounds Read in the bson module '
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-cr6f-gf5w-vhrc
+    detected_date: Apr 9
+    severity: moderate
+    first_patched: 4.6.3
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-08-24 21:20:58.000000000 Z
+  vulnerabilities:
+  - name: Requests `Session` object does not verify requests after making first request
+      with verify=False
+    cve_id: CVE-2024-35195
+    cve_url: https://github.com/advisories/GHSA-9wx4-h78v-vm56
+    detected_date: May 21
+    severity: moderate
+    first_patched: 2.32.0
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.3.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+  vulnerabilities:
+  - name: scikit-learn sensitive data leakage vulnerability
+    cve_id: CVE-2024-5206
+    cve_url: https://github.com/advisories/GHSA-jw8x-6495-233v
+    detected_date: Jun 18
+    severity: moderate
+    first_patched: 1.5.0
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.66.1
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+  vulnerabilities:
+  - name: tqdm CLI arguments injection attack
+    cve_id: CVE-2024-34062
+    cve_url: https://github.com/advisories/GHSA-g7vv-2v7x-gj9p
+    detected_date: May 4
+    severity: low
+    first_patched: 4.66.3
+- name: SQLAlchemy
+  description: Database Abstraction Library
+  package_url: https://pypi.org/project/SQLAlchemy
+  version: '1.4'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19847/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/pyproject.toml
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-08-17 18:49:23.000000000 Z
+- name: aiosqlite
+  description: Asyncio bridge to the standard sqlite3 module
+  package_url: https://pypi.org/project/aiosqlite
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Jesús Vélez Santiago
+  last_updated_on: 2023-10-06 13:38:44.000000000 Z
+- name: anthropic
+  description: The official Python library for the anthropic API
+  package_url: https://pypi.org/project/anthropic
+  version: 0.3.11
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-09-28 18:47:29.000000000 Z
+- name: anyio
+  description: High level compatibility layer for multiple asynchronous event loop
+    implementations
+  package_url: https://pypi.org/project/anyio
+  version: 3.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20757/default_c1e4fc9b7faffe723aa1e18d3dd3049b39849e4d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-09-21 17:19:55.000000000 Z
+- name: async-timeout
+  description: Timeout context manager for asyncio programs
+  package_url: https://pypi.org/project/async-timeout
+  version: 4.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20820/default_33e8d7fbba8bfff26ed0101b65f3a3af5fd63b4e.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Theron Tau
+  last_updated_on: 2023-10-06 01:51:59.000000000 Z
+- name: atlassian-python-api
+  description: Python Atlassian REST API Wrapper
+  package_url: https://pypi.org/project/atlassian-python-api
+  version: 3.41.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Theron Tau
+  last_updated_on: 2023-10-06 01:51:59.000000000 Z
+- name: azure-core
+  description: Microsoft Azure Core Library for Python
+  package_url: https://pypi.org/project/azure-core
+  version: 1.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20643/default_eac54b26516ae2823ed86a96e24038313550c798.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Fabrizio Ruocco
+  last_updated_on: 2023-08-25 09:34:09.000000000 Z
+- name: azure-cosmos
+  description: Azure Cosmos Python SDK
+  package_url: https://pypi.org/project/azure-cosmos
+  version: 4.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Fabrizio Ruocco
+  last_updated_on: 2023-08-25 09:34:09.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: bibtexparser
+  description: Bibtex parser for python 2.7 and 3.3 and newer
+  package_url: https://pypi.org/project/bibtexparser
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: ruze
+  last_updated_on: 2023-08-03 21:58:06.000000000 Z
+- name: chardet
+  description: Universal encoding detector for Python 2 and 3
+  package_url: https://pypi.org/project/chardet
+  version: 5.2.0
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19856/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: clarifai
+  description: Clarifai API Python Client
+  package_url: https://pypi.org/project/clarifai
+  version: 9.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-15 17:21:11.000000000 Z
+- name: cohere
+  description: Python SDK for the Cohere API
+  package_url: https://pypi.org/project/cohere
+  version: '4.27'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-15 17:21:11.000000000 Z
+- name: dataclasses-json
+  description: Easily serialize dataclasses to and from JSON
+  package_url: https://pypi.org/project/dataclasses-json
+  version: 0.5.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20519/default_ded6d17aa418fbd05ff28b85345c77ab878c6b37.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eddie Cohen
+  last_updated_on: 2023-10-06 01:31:09.000000000 Z
+- name: feedparser
+  description: Universal feed parser
+  package_url: https://pypi.org/project/feedparser
+  version: 6.0.10
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19965/default_62b2ac36bb8fe8a96b159da37fa490cc7a170082.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: ruze
+  last_updated_on: 2023-08-03 21:58:06.000000000 Z
+- name: freezegun
+  description: Let your Python tests travel through time
+  package_url: https://pypi.org/project/freezegun
+  version: 1.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20595/default_9322f13ef9811bfc120f244dc670f7e4fb5b8aa3.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  version: 2.70.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Richard Adams
+  last_updated_on: 2023-10-12 22:05:38.000000000 Z
+- name: google-auth
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth
+  version: 2.23.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19955/default_1965f66bb5a4d2eb7b31193d7be6d8a9041d02b9.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: gql
+  description: GraphQL client for Python
+  package_url: https://pypi.org/project/gql
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: html2text
+  description: Turn HTML into equivalent Markdown-structured text
+  package_url: https://pypi.org/project/html2text
+  version: 2020.1.16
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19982/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Piyush Jain
+  last_updated_on: 2023-08-04 19:55:06.000000000 Z
+- name: huggingface-hub
+  description: Client library to download and publish models
+  package_url: https://pypi.org/project/huggingface-hub
+  version: 0.17.3
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-15 17:21:11.000000000 Z
+- name: jsonpatch
+  description: Apply JSON-Patches
+  package_url: https://pypi.org/project/jsonpatch
+  version: '1.33'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20389/default_dbae17f97e8212cfa7ac5c2981eb06a9bf0f7b40.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-09-21 17:19:55.000000000 Z
+- name: librosa
+  description: Python module for audio and music processing
+  package_url: https://pypi.org/project/librosa
+  version: 0.10.1
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-08-08 21:55:25.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: motor
+  description: Non-blocking MongoDB driver for Tornado or asyncio
+  package_url: https://pypi.org/project/motor
+  version: 3.3.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20275/default_267c21fe20acb6a3a56ea60f8b271e1ab445049d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Jon Saginaw
+  last_updated_on: 2023-09-29 15:44:07.000000000 Z
+- name: mwparserfromhell
+  description: MWParserFromHell is a parser for MediaWiki wikicode
+  package_url: https://pypi.org/project/mwparserfromhell
+  version: 0.6.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: ruze
+  last_updated_on: 2023-08-03 21:58:06.000000000 Z
+- name: mypy
+  description: Optional static typing for Python
+  package_url: https://pypi.org/project/mypy
+  version: '0.991'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 17:36:28.000000000 Z
+- name: nbsphinx
+  description: Jupyter Notebook Tools for Sphinx
+  package_url: https://pypi.org/project/nbsphinx
+  version: 0.8.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/poetry.lock
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-04 20:10:58.000000000 Z
+- name: neo4j
+  description: Neo4j Bolt driver for Python
+  package_url: https://pypi.org/project/neo4j
+  version: 5.13.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: networkx
+  description: Python package for creating and manipulating graphs and networks
+  package_url: https://pypi.org/project/networkx
+  version: '3.1'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19877/default_8902c10687fbcd6273bdbe119fff40fa1180763f.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eddie Cohen
+  last_updated_on: 2023-10-06 01:31:09.000000000 Z
+- name: newspaper3k
+  description: Simplified python article discovery &amp; extraction
+  package_url: https://pypi.org/project/newspaper3k
+  version: 0.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: ruze
+  last_updated_on: 2023-08-03 21:58:06.000000000 Z
+- name: numexpr
+  description: Fast numerical expression evaluator for NumPy
+  package_url: https://pypi.org/project/numexpr
+  version: 2.8.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20289/default_bae4ec34e549383af798a405820088989f617ff0.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-10-02 19:06:32.000000000 Z
+- name: numpy
+  description: NumPy is the fundamental package for array computing with Python
+  package_url: https://pypi.org/project/numpy
+  version: 1.24.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19828/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.10
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/langchain/cli/create_repo/templates/pip/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-10-04 19:43:41.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 2.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: pexpect
+  description: Pexpect allows easy control of interactive console applications
+  package_url: https://pypi.org/project/pexpect
+  version: 4.8.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20078/default_1b6ee2407cdedc6ad8878ee707164428880e399a.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: pgvector
+  description: Pgvector support for Python
+  package_url: https://pypi.org/project/pgvector
+  version: 0.1.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Matvey Arye
+  last_updated_on: 2023-09-21 14:33:37.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  version: 2.9.9
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: py-trello
+  description: Python wrapper around the Trello API
+  package_url: https://pypi.org/project/py-trello
+  version: 0.19.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: pyspark
+  description: Apache Spark Python API
+  package_url: https://pypi.org/project/pyspark
+  version: 3.5.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20194/default_3c305c494fb38a63681703a1e2253e6fc9546c86.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: pytesseract
+  description: Python-tesseract is a python wrapper for Google's Tesseract-OCR
+  package_url: https://pypi.org/project/pytesseract
+  version: 0.3.10
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20381/default_135579e95b2b6e219789a65aaca198fa4c877f7a.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eddie Cohen
+  last_updated_on: 2023-10-06 01:31:09.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: Erick Friis
+  last_updated_on: 2023-10-13 16:48:24.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.20.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/langchain/cli/create_repo/templates/poetry/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-10-04 19:43:41.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-10-04 17:54:53.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-15 17:21:11.000000000 Z
+- name: python-arango
+  description: Python Driver for ArangoDB
+  package_url: https://pypi.org/project/python-arango
+  version: 7.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Theron Tau
+  last_updated_on: 2023-10-06 01:51:59.000000000 Z
+- name: rdflib
+  description: RDFLib is a Python library for working with RDF
+  package_url: https://pypi.org/project/rdflib
+  version: 6.3.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20004/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: redis
+  description: Python client for Redis key-value store
+  package_url: https://pypi.org/project/redis
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19855/default_f812320c62a72187e593516984ac4eb92fb43040.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Burak Yılmaz
+  last_updated_on: 2023-10-13 00:36:51.000000000 Z
+- name: requests-toolbelt
+  description: A utility belt for advanced users of python-requests
+  package_url: https://pypi.org/project/requests-toolbelt
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20128/default_3146a05cf4dd77d8b50cff25709373c081ac5053.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Bagatur
+  last_updated_on: 2023-08-24 21:20:58.000000000 Z
+- name: responses
+  description: A utility library for mocking out the `requests` Python library
+  package_url: https://pypi.org/project/responses
+  version: 0.22.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20167/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  version: 67.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/experimental/pyproject.toml
+  last_updated_by: maks-operlejn-ds
+  last_updated_on: 2023-08-30 17:39:44.000000000 Z
+- name: sphinx_rtd_theme
+  description: Read the Docs theme for Sphinx
+  package_url: https://pypi.org/project/sphinx_rtd_theme
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20304/default_506725603cd9affb22ffa36e3939310b26cbf952.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/api_reference/requirements.txt
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-04 20:10:58.000000000 Z
+- name: sympy
+  description: Computer algebra system
+  package_url: https://pypi.org/project/sympy
+  version: '1.12'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19976/default_29192d68c64b1a3be468b1b73c2a129fc390c4f4.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: toml
+  description: Python Library for Tom's Obvious, Minimal Language
+  package_url: https://pypi.org/project/toml
+  version: 0.10.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19912/default_bc82f0b22ca8fd942e21c317967f4ab61f43eb2c.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: docs/api_reference/requirements.txt
+  last_updated_by: Harrison Chase
+  last_updated_on: 2022-12-05 01:44:40.000000000 Z
+- name: torch
+  description: Tensors and Dynamic neural networks in Python with strong GPU acceleration
+  package_url: https://pypi.org/project/torch
+  version: 2.1.0
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20038/default_a7a70921d2d3189665c78015850dc968f41705a1.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/experimental/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Eugene Yurtsev
+  last_updated_on: 2023-08-15 17:21:11.000000000 Z
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  version: 0.22.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/langchain/cli/create_repo/templates/poetry/pyproject.toml
+  detection_source: libs/langchain/langchain/cli/create_repo/templates/pip/pyproject.toml
+  last_updated_by: Nuno Campos
+  last_updated_on: 2023-10-04 19:43:41.000000000 Z
+- name: wikipedia
+  description: Wikipedia API for Python
+  package_url: https://pypi.org/project/wikipedia
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Harrison Chase
+  last_updated_on: 2023-07-21 16:20:24.000000000 Z
+- name: xmltodict
+  description: Makes working with XML feel like you are working with JSON
+  package_url: https://pypi.org/project/xmltodict
+  version: 0.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19902/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/libs/langchain/poetry.lock
+  detection_source: libs/langchain/pyproject.toml
+  last_updated_by: Leonid Ganeline
+  last_updated_on: 2023-08-08 18:26:03.000000000 Z
+- name: "@mdx-js/react"
+  description: React implementation for MDX
+  package_url: https://www.npmjs.com/@mdx-js/react
+  version: 1.6.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17624/default_61a119a7701a0e8224ca0e4dce7ff951cd67972f.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-config-airbnb
+  description: Airbnb's ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb
+  version: 19.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15857/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.27.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-plugin-jsx-a11y
+  description: Static AST checker for accessibility rules on JSX elements
+  package_url: https://www.npmjs.com/eslint-plugin-jsx-a11y
+  version: 6.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.32.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: process
+  description: Process information for node.js and browsers
+  package_url: https://www.npmjs.com/process
+  version: 0.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17866/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: typedoc
+  description: Create api documentation for TypeScript projects
+  package_url: https://www.npmjs.com/typedoc
+  version: 0.24.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15983/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
+- name: typedoc-plugin-markdown
+  description: A plugin for TypeDoc that enables TypeScript API documentation to be
+    generated in Markdown
+  package_url: https://www.npmjs.com/typedoc-plugin-markdown
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17015/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/shemadereal/langchain/blob/master/docs/package-lock.json
+  detection_source: docs/package.json
+  last_updated_by: Davis Chase
+  last_updated_on: 2023-06-16 18:52:56.000000000 Z
